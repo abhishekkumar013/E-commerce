@@ -1,0 +1,75 @@
+
+/* This is the moving lens square underneath the mouse pointer. */
+.cloud-zoom-lens {
+	border: none;
+	margin:-4px;	/* Set this to minus the border thickness. */
+	background-color:none;	
+	cursor:crosshair;		
+}
+
+/* This is for the title text. */
+.cloud-zoom-title {
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute !important;
+	background-color:#000;
+	color:#fff;
+	padding:3px;
+	width:100%;
+	text-align:center;	
+	font-weight:bold;
+	font-size:10px;
+	top:0px;
+}
+
+/* This is the zoom window. */
+.cloud-zoom-big {
+	border:1px solid #ccc;
+	overflow:hidden;
+	background-repeat:no-repeat;
+	z-index:10000 !important;
+	background-color:#ffffff;
+	width:625px !important;
+	height:375px !important;
+	top:0px !important;
+	left:100% !important;
+	text-align:center;
+	display:block;
+	box-shadow:2px 2px 12px #ccc; 
+}
+
+.productshowcase_watches .cloud-zoom-big{border:1px solid #ccc;
+	overflow:hidden;
+	width:575px !important;
+	height:375px !important;
+	background-repeat:no-repeat;
+	z-index:10000 !important;
+	background-color:#ffffff;
+	top:-50px !important;
+	left:350px !important;
+	text-align:center;
+	display:block;
+	box-shadow:2px 2px 12px #ccc; }
+
+
+.mousetrap {
+    text-align: center;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.productshowcase_watches .mousetrap {
+    text-align: center;
+    width: 300px !important;
+	left:45px!important
+}
+
+/* This is the loading message. */
+.cloud-zoom-loading {
+	color:white;	
+	background:#222;
+	padding:3px;
+	border:1px solid #000;
+}
+
+#wrap{z-index:10 !important;}
+#zoomWrapper{position:relative;}
